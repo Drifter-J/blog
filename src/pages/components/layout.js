@@ -1,3 +1,4 @@
+// actually layout.js is non-page component -> meaning does not be shown as pages in the site
 import React from 'react'
 import { Link } from 'gatsby'
 

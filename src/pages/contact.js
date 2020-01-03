@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/header'
-import Layout from './components/layout'
+import Layout from './components/layoutWithGraphQL'
 
 export default () => (
     <Layout>
