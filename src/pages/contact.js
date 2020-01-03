@@ -1,9 +1,10 @@
 import React from 'react'
 import Header from './components/header'
+import Layout from './components/layout'
 
 export default () => (
-    <div style={{ color:'purple', fontSize:'72px'}}>
+    <Layout>
         <Header headerText="Contact" />
         <p>Started</p>
-    </div>
+    </Layout>
 )
