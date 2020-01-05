@@ -1,8 +1,7 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
-import Header from './components/header'
 import Layout from './components/layoutWithGraphQL'
 
 //import Contact from './contact'
@@ -18,26 +17,34 @@ export default ({ data }) => {
                         border-bottom: 1px solid;
                     `}
                 >
-                    {data.site.siteMetadata.title}
+                    {data.site.siteMetadata.listOfPost}
                 </h1>
                 <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                     <div key={node.id}>
-                    <h3
-                        css={css`
-                            margin-bottom: ${rhythm(1/4)};
-                        `}
-                        >
-                            {node.frontmatter.title}{" "}
-                            <span
-                                css={css`
-                                    color: #bbb;
-                                `}
+                        <Link 
+                            to={node.fields.slug}
+                            css={css`
+                                text-decoration: none;
+                                color: inherit;
+                            `}
                             >
-                                — {node.frontmatter.date}
-                            </span>
-                        </h3>
-                        <p>{node.excerpt}</p>
+                            <h3
+                                css={css`
+                                    margin-bottom: ${rhythm(1/4)};
+                                `}
+                                >
+                                {node.frontmatter.title}{" "}
+                                <span
+                                    css={css`
+                                        color: #bbb;
+                                    `}
+                                >
+                                    — {node.frontmatter.startDate} {"~"} {node.frontmatter.endDate}
+                                </span>
+                            </h3>
+                            <p>{node.excerpt}</p>
+                        </Link>
                     </div>
                 ))}
             </div>
@@ -48,13 +55,18 @@ export default ({ data }) => {
 export const query = (
     graphql `
         query {   
-            allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
+            allMarkdownRemark(sort: {order: DESC, fields: frontmatter___startDate}) {
               totalCount
               edges {
                 node {
                   frontmatter {
-                    date
                     title
+                    startDate
+                    endDate
+                    originalAuthor
+                  }
+                  fields {
+                      slug
                   }
                 }
               }
@@ -62,6 +74,7 @@ export const query = (
             site {
               siteMetadata {
                 title
+                listOfPost
               }
             }
           }

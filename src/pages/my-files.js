@@ -5,7 +5,7 @@ import Layout from './components/layoutWithGraphQL'
 // build a page with a GraphQL query
 
 export default ({ data }) => {
-    console.log(data);
+    // console.log(data);
     return (
         <Layout>
             <div>
