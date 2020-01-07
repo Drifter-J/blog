@@ -34,7 +34,7 @@ export default ({ data }) => {
                                     margin-bottom: ${rhythm(1/4)};
                                 `}
                                 >
-                                {node.frontmatter.title}{" "}
+                                {node.frontmatter.title} {" "}
                                 <span
                                     css={css`
                                         color: #bbb;
