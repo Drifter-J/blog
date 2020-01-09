@@ -27,8 +27,7 @@ startTime: Dec 11, 2019 12:55 PM
     - `nodemon main.js` 로 서버를 실행하면, 알아서 재시작됨
 
         ![Day2%20Setting/Untitled%202.png](Day2%20Setting/Untitled%202.png)
-
-        알아서 재시작되는 서버
+        *알아서 재시작되는 서버*
 
 ---
 
