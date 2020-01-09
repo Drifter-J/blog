@@ -40,7 +40,7 @@ export default ({ data }) => {
                                         color: #bbb;
                                     `}
                                 >
-                                    — {node.frontmatter.startDate} {"~"} {node.frontmatter.endDate}
+                                    — {node.frontmatter.startTime} {"~"} {node.frontmatter.endTime}
                                 </span>
                             </h3>
                             <p>{node.excerpt}</p>
@@ -55,14 +55,14 @@ export default ({ data }) => {
 export const query = (
     graphql `
         query {   
-            allMarkdownRemark(sort: {order: DESC, fields: frontmatter___startDate}) {
+            allMarkdownRemark(sort: {order: DESC, fields: frontmatter___startTime}) {
               totalCount
               edges {
                 node {
                   frontmatter {
                     title
-                    startDate
-                    endDate
+                    startTime
+                    endTime
                     originalAuthor
                   }
                   fields {
