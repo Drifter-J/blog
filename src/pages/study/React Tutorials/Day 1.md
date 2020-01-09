@@ -1,5 +1,5 @@
 ---
-title: day 1
+title: Day 1
 startTime: Dec 10, 2019 12:20 AM
 ---
 
