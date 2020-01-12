@@ -1,6 +1,7 @@
 ---
-title: Day3
-startTime: Dec 11, 2019 4:29 PM
+# tag: ["React", "Node.js", "GraphQL"]
+title: "React  Tutorial Day3"
+startTime: "Dec 11, 2019 4:29 PM"
 ---
 
 # VS Code 프로젝트 생성

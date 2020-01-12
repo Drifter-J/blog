@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../pages/components/layoutWithGraphQL'
+import Layout from '../../pages/components/layoutWithGraphQL'
 
 // pull in data from a markdown post
 export default ({ data }) => {
@@ -17,7 +17,7 @@ export default ({ data }) => {
     )
 }
 
-export const query = graphql`
+export const pageQuery = graphql`
     query($slug: String!) {
         markdownRemark(fields: { slug: { eq: $slug} }) {
             html
@@ -26,7 +26,7 @@ export const query = graphql`
                 startTime
                 endTime
                 originalAuthor
-                type
+                tag
             }
         }
     }

@@ -1,6 +1,7 @@
 ---
-title: Day2 - Setting
-startTime: Dec 11, 2019 12:55 PM
+# tag: ["React", "Node.js", "GraphQL"]
+title: "React  Tutorial Day2 - Setting"
+startTime: "Dec 11, 2019 12:55 PM"
 ---
 
 # 1. Node.js 설치

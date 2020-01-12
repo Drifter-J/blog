@@ -1,6 +1,7 @@
 ---
-title: Day4
-startTime: Dec 14, 2019 5:32 PM
+# tag: ["React", "Node.js", "GraphQL"]
+title: "React  Tutorial Day4"
+startTime: "Dec 14, 2019 5:32 PM"
 ---
 
 # React-hot-loader

@@ -14,8 +14,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     if (node.internal.type === `MarkdownRemark`) {
         // const fileNode = getNode(node.parent)
         // console.log('\n', fileNode.relativePath) // => pages/소프트웨어 장인.md
-        const slug = createFilePath({ node, getNode, basePath:`pages` });
-        // console.log(slug) // => /소프르트웨어 장인/
+        const slug = createFilePath({ node, getNode, basePath:`contents` });
+        // console.log(slug) // => /소프트웨어 장인/
         createNodeField({
             node,
             name: `slug`,
@@ -61,7 +61,7 @@ exports.createPages = async ({ graphql, actions }) => {
    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
        createPage({
            path: node.fields.slug,
-           component: path.resolve(`./src/templates/blog-post.js`),
+           component: path.resolve(`./src/templates/blog/blog-post.js`),
            context: {
                // Data passed to context is available
                // in page queries as GraphQL variables
