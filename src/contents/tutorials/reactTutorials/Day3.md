@@ -16,14 +16,14 @@ startTime: "Dec 11, 2019 4:29 PM"
     - `npm install --save react react-dom` 명령어 실행
         - 아래 빨간 부분이 package.json에 추가됨 (⇒ `--save` 명령어)
 
-        ![Day3/Untitled%201.png](Day3/Untitled%201.png)
+        ![Day3/Untitled1.png](Day3/Untitled1.png)
 
     - `npm install --save-dev babel-core babel-loader@7 babel-preset-es2015 babel-preset-react` 명령어 실행
         - ES6 문법, JSX를 인식할 수 있게 하는 Babel 컴파일러 설치
     - `npm install --save-dev react-hot-loader webpack webpack-dev-server` 명령어 실행
         - webpack hot-loader를 로컬에 설치
 
-    ![Day3/Untitled%202.png](Day3/Untitled%202.png)
+    ![Day3/Untitled2.png](Day3/Untitled2.png)
 
     - `npm install -d webpack-cli` 명령어 실행
 
@@ -112,8 +112,8 @@ startTime: "Dec 11, 2019 4:29 PM"
     ```
 10. `npm run dev-server` 명령어 실행
 
-    ![Day3/Untitled%203.png](Day3/Untitled%203.png)
+    ![Day3/Untitled3.png](Day3/Untitled3.png)
 
 11. [localhost:4000](http://localhost:4000)에서 실행 결과 확인
 
-    ![Day3/Untitled%204.png](Day3/Untitled%204.png)
+    ![Day3/Untitled4.png](Day3/Untitled4.png)

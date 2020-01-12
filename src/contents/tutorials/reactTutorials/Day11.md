@@ -13,7 +13,7 @@ startTime: "Dec 23, 2019 1:42 AM"
     - Document: `{key: value}` 집합
     - Collection: document 집합
     - Database: Collection 집합
-
+        ```json
         {
         	"_id" : ObjectId("1"), /* 12 bytes의 hexadecimal 값, document의 unique함 제공 */
         	"name" : "A",
@@ -27,6 +27,7 @@ startTime: "Dec 23, 2019 1:42 AM"
         	"gender" : "M",
         	"age" : "21"
         }
+        ```
 
 1. cmd창이나 터미널에서 `C:\Program Files\MongoDB\Server\4.2\bin` 폴더 접근 후 `mongod` 명령어로 서버 실행
 
@@ -34,7 +35,7 @@ startTime: "Dec 23, 2019 1:42 AM"
 
 2. `mongo` 명령어 실행으로 클라이언트 접근
 
-    ![Day11/Untitled%201.png](Day11/Untitled%201.png)
+    ![Day11/Untitled1.png](<./Day11/Untitled1.png>)
 
 3. database 사용법 익히기
 
@@ -44,11 +45,11 @@ startTime: "Dec 23, 2019 1:42 AM"
     - 현재 database 목록 보기: `show dbs`
         - data가 없는 database는 목록에서 보여지지 않음
 
-        ![Day11/Untitled%202.png](Day11/Untitled%202.png)
+        ![Day11/Untitled2.png](Day11/Untitled2.png)
 
     - 선택된 database 제거: `db.dropDatabase();`
 
-        ![Day11/Untitled%203.png](Day11/Untitled%203.png)
+        ![Day11/Untitled3.png](Day11/Untitled3.png)
 
     ---
 
@@ -61,15 +62,15 @@ startTime: "Dec 23, 2019 1:42 AM"
             - `<max>`: document 개수 제한 설정
             - etc...
 
-        ![Day11/Untitled%204.png](Day11/Untitled%204.png)
+        ![Day11/Untitled4.png](Day11/Untitled4.png)
 
     - 선택된 database의 collection 목록 보기: `show collections`
 
-        ![Day11/Untitled%205.png](Day11/Untitled%205.png)
+        ![Day11/Untitled5.png](Day11/Untitled5.png)
 
     - 선택된 database에 collection 제거: `db.people.drop();`
 
-        ![Day11/Untitled%206.png](Day11/Untitled%206.png)
+        ![Day11/Untitled6.png](Day11/Untitled6.png)
 
     ---
 
@@ -78,21 +79,21 @@ startTime: "Dec 23, 2019 1:42 AM"
     - 선택된 database, sample collection에 document 삽입
         - 하나 삽입: `db.sample.insertOne({"name": "sample"});`
 
-            ![Day11/Untitled%207.png](Day11/Untitled%207.png)
+            ![Day11/Untitled7.png](Day11/Untitled7.png)
 
         - 여러개 삽입: `db.books.insertMany([{"name": "Book of A", "author": "A"}, {"name": "Book of B", "author": "B"}]);`
 
-            ![Day11/Untitled%208.png](Day11/Untitled%208.png)
+            ![Day11/Untitled8.png](Day11/Untitled8.png)
 
         Tip: collection이 미리 만들어있지 않아도 자동으로 collection 생성됨
 
     - 선택된 database, books collection에서 document 검색: `db.books.find(<query>, <projection>);` or `db.books.find().pretty();`
 
-        ![Day11/Untitled%209.png](Day11/Untitled%209.png)
+        ![Day11/Untitled9.png](Day11/Untitled9.png)
 
     - 선택된 database, books collection에서 document 제거: `db.books.remove({"name": "Book of A"}, [true|false]);`
         - `<justOne>` option을 true로 주면 조건이 만족하는 document 중 하나만을 삭제, false면 모든 document 삭제
 
-        ![Day11/Untitled%2010.png](Day11/Untitled%2010.png)
+        ![Day11/Untitled10.png](Day11/Untitled10.png)
 
     ---

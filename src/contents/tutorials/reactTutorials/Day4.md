@@ -74,8 +74,8 @@ startTime: "Dec 14, 2019 5:32 PM"
     ![Day4/Untitled.png](Day4/Untitled.png)
     *변경 전*
 
-    ![Day4/Untitled%201.png](Day4/Untitled%201.png)
+    ![Day4/Untitled1.png](Day4/Untitled1.png)
     *module.hot.accpet() 적용으로 코드 변경 시 page가 refresh되진 않지만, local state는 유지되지 않음*
 
-    ![Day4/Untitled%202.png](Day4/Untitled%202.png)
+    ![Day4/Untitled2.png](Day4/Untitled2.png)
     *react-hot-loader 적용 후 코드 변경 시 state가 유지됨*

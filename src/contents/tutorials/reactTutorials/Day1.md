@@ -40,7 +40,7 @@ startTime: "Dec 10, 2019 12:20 AM"
   <!-- 두번째 인수 : Component를 렌더링할 Element -->
   ReactDOM.render(<App/>, document.getElementById("root"));
   ```
-  ![Day%201/Untitled.png](Day%201/Untitled.png)
+  ![결과 창](Day1/Untitled.png)
 
 # props
 
@@ -69,7 +69,7 @@ startTime: "Dec 10, 2019 12:20 AM"
   
   ReactDOM.render(<App name="my props name">children props name</App>, document.getElementById("root"));
   ```
-  ![Day%201/Untitled%201.png](Day%201/Untitled%201.png)
+  ![결과 창](Day1/Untitled1.png)
 
 - 기본 값 설정
     ```javascript
@@ -81,7 +81,7 @@ startTime: "Dec 10, 2019 12:20 AM"
     
     ReactDOM.render(<App/>, document.getElementById("root"));
     ```
-  ![Day%201/Untitled%202.png](Day%201/Untitled%202.png)
+  ![결과 창](Day1/Untitled2.png)
 
 - Type Validation
     ```javascript
@@ -118,7 +118,7 @@ startTime: "Dec 10, 2019 12:20 AM"
     
     ReactDOM.render(<App number={2}>props children</App>, document.getElementById("root"));
     ```
-  ![Day%201/Untitled%203.png](Day%201/Untitled%203.png)
+  ![결과 창](Day1/Untitled3.png)
 
 # state
 
@@ -166,7 +166,7 @@ startTime: "Dec 10, 2019 12:20 AM"
         
     ReactDOM.render(<App/>, document.getElementById("root"));
     ```
-  ![Day%201/Untitled%204.png](Day%201/Untitled%204.png)
+  ![결과 창](Day1/Untitled4.png)
 
 - Why not use `forceUpdate()`?
     - re-rendering이지 state나 prop를 바꾸는 것이 아님
@@ -311,7 +311,7 @@ startTime: "Dec 10, 2019 12:20 AM"
     
     ReactDOM.render(<App/>, document.getElementById("root"));
     ```
-  ![Day%201/Untitled%205.png](Day%201/Untitled%205.png)
+  ![결과 창](Day1/Untitled5.png)
 
 - Arrow function
   ```javascript
