@@ -1,12 +1,27 @@
 import React from "react"
+import moment from "moment"
 import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 import Layout from '../components/layoutWithGraphQL'
 
-//import Contact from './contact'
+function showDate(startTime, endTime) {
+    let date = "";
+
+    if ('undefined' !== typeof startTime && null != startTime) {
+        date += moment(startTime).format("DD MMM YYYY");
+    }
+
+    if ('undefined' !== typeof endTime && null != endTime) {
+        date += " ~ ";
+        date += moment(endTime).format("DD MMM YYYY");
+    }
+    
+    return date;
+}
+
 export default ({ data }) => {
-    console.log(data)
+    //console.log(data)
     return (
         <Layout>
             <div>
@@ -33,13 +48,15 @@ export default ({ data }) => {
                                     margin-bottom: ${rhythm(1/4)};
                                 `}
                                 >
-                                {node.frontmatter.title} {" "}
+                                {node.frontmatter.title}
+                                <br/>
                                 <span
                                     css={css`
                                         color: #bbb;
+                                        margin-left: ${rhythm(1/3)};
                                     `}
                                 >
-                                    — {node.frontmatter.startTime} {"~"} {node.frontmatter.endTime}
+                                    — {showDate(node.frontmatter.startTime, node.frontmatter.endTime)}
                                 </span>
                             </h3>
                             <p>{node.excerpt}</p>

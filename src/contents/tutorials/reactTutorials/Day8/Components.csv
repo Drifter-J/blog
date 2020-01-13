@@ -1,6 +1,0 @@
-﻿특성/종류,Smart,Dumb
-위치,"최상위, 라우트 핸들러",중간과 말단
-Redux와 연관성,있음,없음
-데이터를 읽기 위해,Redux 상태를 구독,props에서 데이터를 읽음
-데이터를 바꾸기 위해,Redux 액션을 보냄,props에서 callback을 부름
-"DOM, CSS style 존재 여부","DOM, CSS style을 거의 가지고 있지 않음","DOM을 가지고 있으며, CSS style가 있음"

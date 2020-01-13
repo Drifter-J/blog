@@ -1,6 +1,6 @@
 ---
 # tag: ["React", "Node.js", "GraphQL"]
-title: "React  Tutorial Day 1"
+title: "React Tutorial Day 1"
 startTime: "Dec 10, 2019 12:20 AM"
 ---
 
