@@ -71,11 +71,8 @@ startTime: "Dec 14, 2019 5:32 PM"
     
     export default hot(App); /* react-hot-loader 사용 시 root component를 hot-exported로 변환해줘야함 */
     ```
-    ![Day4/Untitled.png](Day4/Untitled.png)
-    *변경 전*
+    ![변경 전](Day4/Untitled.png)
 
-    ![Day4/Untitled1.png](Day4/Untitled1.png)
-    *module.hot.accpet() 적용으로 코드 변경 시 page가 refresh되진 않지만, local state는 유지되지 않음*
+    ![module.hot.accpet() 적용으로 코드 변경 시 page가 refresh되진 않지만, local state는 유지되지 않음](Day4/Untitled1.png)
 
-    ![Day4/Untitled2.png](Day4/Untitled2.png)
-    *react-hot-loader 적용 후 코드 변경 시 state가 유지됨*
+    ![react-hot-loader 적용 후 코드 변경 시 state가 유지됨](Day4/Untitled2.png)

@@ -13,7 +13,7 @@ startTime: "Dec 11, 2019 12:55 PM"
 
 - cmd창 혹은 터미널에서 `npm install -g npm` 명령어 사용으로 npm 버전 최신화
 
-    ![Day2Setting/Untitled.png](Day2Setting/Untitled.png)
+    ![](Day2Setting/Untitled.png)
 
 - `npm install -g webpack webpack-dev-server` 명령어 사용으로 webpack 설치
     - webpack: JavaScript 어플리케이션 static module bundler
@@ -21,7 +21,7 @@ startTime: "Dec 11, 2019 12:55 PM"
         - 파일이 하나로 합쳐지면 네트워킹 요청 횟수가 줄어들기 때문에 performance가 올라감
     - webpack-dev-server: express로 서버를 구축하지 않아도 static file을 다루는 웹서버을 구동 가능, hot-module-replacement라는 기능을 사용하면 수정된 script가 있는 file만 reload
 
-    ![Day2Setting/Untitled1.png](Day2Setting/Untitled1.png)
+    ![](Day2Setting/Untitled1.png)
 
 - `npm install -g nodemon` 명령어 사용으로 nodemon(*node.js 서버 재시작 helper*) 설치
     - `node main.js` 로 서버를 실행하면, code 수정할 때마다 서버 재시작 필요
@@ -165,4 +165,4 @@ startTime: "Dec 11, 2019 12:55 PM"
 
 - 개발한 API를 테스트하고 공유하는 플랫폼
 
-    ![Day2Setting/Untitled3.png](Day2Setting/Untitled3.png)
+    ![](Day2Setting/Untitled3.png)

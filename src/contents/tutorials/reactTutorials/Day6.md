@@ -312,11 +312,8 @@ startTime: "Dec 17, 2019 10:14 PM"
         onEdit: () => { console.error('onEdit not defined'); }
     }
     ```
-    ![Day6/Untitled.png](Day6/Untitled.png)
-    *데이터 생성 기능*
+    ![데이터 생성 기능](Day6/Untitled.png)
 
-    ![Day6/Untitled1.png](Day6/Untitled1.png)
-    *데이터 제거 기능*
+    ![데이터 제거 기능](Day6/Untitled1.png)
 
-    ![Day6/Untitled2.png](Day6/Untitled2.png)
-    *데이터 수정 기능*
+    ![데이터 수정 기능](Day6/Untitled2.png)

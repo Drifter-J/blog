@@ -133,9 +133,8 @@ startTime: "Dec 20, 2019 12:44 AM"
                     
                     console.log({person, shallowCopiedPerson});
                 ```
-                ![Day8/Untitled.png](Day8/Untitled.png)
+                ![shoeSize를 변경해도 person과 shallowCopiedPerson이 같은 값을 가지고 있진 않음](Day8/Untitled.png)
                 
-                *shoeSize를 변경해도 person과 shallowCopiedPerson이 같은 값을 가지고 있진 않음*
                 ```javascript
                     // this is not fine, because 'address' is an object.
                     const person = {
@@ -148,9 +147,8 @@ startTime: "Dec 20, 2019 12:44 AM"
                     
                     console.log({person, shallowCopiedPerson});
                 ```
-                ![Day8/Untitled1.png](Day8/Untitled1.png)
+                ![address의 number를 바꾸면 person과 shallowCopiedPerson이 같은 값을 가지게 됨](Day8/Untitled1.png)
 
-                *address의 number를 바꾸면 person과 shallowCopiedPerson이 같은 값을 가지게 됨*
                 ```javascript
                 // Deep copy 방법 1. JSON 방식
                 const person = {
@@ -167,9 +165,7 @@ startTime: "Dec 20, 2019 12:44 AM"
                 // Deep copy 방법 2. jQuery 등을 사용하거나 clone function 하나 만듦
                 // ...
                 ```
-                ![Day8/Untitled2.png](Day8/Untitled2.png)
-
-                person과 deepCopiedPerson 객체의 address.number 값이 다름
+                ![person과 deepCopiedPerson 객체의 address.number 값이 다름](Day8/Untitled2.png)
 
         2. `console.log()`
             ```javascript
@@ -207,11 +203,11 @@ startTime: "Dec 20, 2019 12:44 AM"
 # Redux 설치
 
 - `npm install -g create-react-app` 실행
-    ![Day8/Untitled3.png](Day8/Untitled3.png)
+    ![](Day8/Untitled3.png)
 
 - 폴더를 새로 만들고, 해당 폴더로 들어가 cmd창이나 터미널에 `create-react-app redux-example` 실행
 - 설치가 완료되면, 설치가 된 폴더에 들어가 `npm start` 실행, [localhost:3000/](http://localhost:3000/에) 에 접속하여 정상적인지 확인
-    ![Day8/Untitled4.png](Day8/Untitled4.png)
+    ![](Day8/Untitled4.png)
 
 - 빠져나와서 필요한 모듈 설치 진행: `npm install --save redux react-redux` 실행
     - react-redux: view layer binding

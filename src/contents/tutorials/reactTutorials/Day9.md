@@ -286,8 +286,8 @@ startTime: "Dec 21, 2019 10:07 PM"
             document.getElementById('root')
         );
         ```
-        ![Day9/Untitled.png](Day9/Untitled.png)
-        *초기 상태 출력*
+        ![초기 상태 출력](Day9/Untitled.png)
+        
         ```javascript
         import React from 'react'
         import ReactDOM from 'react-dom'
@@ -313,9 +313,8 @@ startTime: "Dec 21, 2019 10:07 PM"
             document.getElementById('root')
         );
         ```
-        ![Day9/Untitled1.png](Day9/Untitled1.png)
-        *dispatch한 결과*
-
+        ![dispatch한 결과](Day9/Untitled1.png)
+        
     - react-redux 핵심
         1. Provider: component에서 redux를 사용할 수 있게 함
         2. Connect([...options]): component를 Redux에 연결하는 *또 다른 함수*를 반환함
@@ -348,4 +347,4 @@ startTime: "Dec 21, 2019 10:07 PM"
             document.getElementById('root')
         );
         ```
-        ![Day9/Untitled2.png](Day9/Untitled2.png)
+        ![](Day9/Untitled2.png)

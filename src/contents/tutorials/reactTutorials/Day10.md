@@ -35,7 +35,7 @@ startTime: "Dec 21, 2019 11:58 PM"
     ```
 4. cmd창이나 터미널을 이용해 `nodemon main.js` 실행 (`npm install -g nodemon`)
 
-    ![Day10/Untitled.png](Day10/Untitled.png)
+    ![](Day10/Untitled.png)
 
 5. Express 라우팅 설정
     - 기본 라우팅 방법: `app.METHOD(PATH, HANDLER)`
@@ -65,23 +65,15 @@ startTime: "Dec 21, 2019 11:58 PM"
             res.send('Received a DELETE request');
         });
         ```
-    ![Day10/Untitled1.png](Day10/Untitled1.png)
+    ![HTTP: get /user/:id 결과](Day10/Untitled1.png)
 
-    *HTTP: get /user/:id 결과*
+    ![HTTP: post /user/ 결과](Day10/Untitled2.png)
 
-    ![Day10/Untitled2.png](Day10/Untitled2.png)
+    ![HTTP: put /user/ 결과](Day10/Untitled3.png)
 
-    *HTTP: post /user/ 결과*
+    ![HTTP: delete /user/ 결과](Day10/Untitled4.png)
 
-    ![Day10/Untitled3.png](Day10/Untitled3.png)
-
-    *HTTP: put /user/ 결과*
-
-    ![Day10/Untitled4.png](Day10/Untitled4.png)
-
-    *HTTP: delete /user/ 결과*
-
-1. 모듈화를 해도 위 스크린샷과 같은 결과가 나오는지 확인
+6. 모듈화를 해도 위 스크린샷과 같은 결과가 나오는지 확인
     - 모듈화 장점
         - 한 파일이 너무 커지는 것을 방지
         - 읽기 간결
@@ -132,7 +124,7 @@ startTime: "Dec 21, 2019 11:58 PM"
         });
         ```
 
-2. Express 미들웨어 설정
+7. Express 미들웨어 설정
     - 미들웨어 함수: 양 쪽을 연결하여 요청/응답을 주고받을 수 있도록 중간에서 매개 역할을 함
         ```
             			 MiddleWare ------------------> 이를 통해서 Express에   
@@ -210,23 +202,15 @@ startTime: "Dec 21, 2019 11:58 PM"
         module.exports = router;
         ```
 
-        ![Day10/Untitled5.png](Day10/Untitled5.png)
+        ![console.log(req.url) 결과](Day10/Untitled5.png)
 
-        *console.log(req.url) 결과*
+        ![morgan 사용 결과](Day10/Untitled6.png)
 
-        ![Day10/Untitled6.png](Day10/Untitled6.png)
+        ![HTTP: post /user/ + body(JSON 데이터) 보냄](Day10/Untitled7.png)
 
-        *morgan 사용 결과*
+        ![HTTP: post /user/ + body(JSON 데이터) 보낸 결과](Day10/Untitled8.png)
 
-        ![Day10/Untitled7.png](Day10/Untitled7.png)
-
-        *HTTP: post /user/ + body(JSON 데이터) 보냄*
-
-        ![Day10/Untitled8.png](Day10/Untitled8.png)
-
-        *HTTP: post /user/ + body(JSON 데이터) 보낸 결과*
-
-3. static 파일 (html, css, image, etc...) 제공
+8. static 파일 (html, css, image, etc...) 제공
     - public/index.html 작성
         ```html
         <!DOCTYPE>
@@ -279,10 +263,6 @@ startTime: "Dec 21, 2019 11:58 PM"
         });
         ```
 
-        ![Day10/Untitled9.png](Day10/Untitled9.png)
+        ![index.html 렌더링 결과](Day10/Untitled9.png)
 
-        *index.html 렌더링 결과*
-
-        ![Day10/Untitled10.png](Day10/Untitled10.png)
-
-        *about.html 렌더링 결과*
+        ![about.html 렌더링 결과](Day10/Untitled10.png)

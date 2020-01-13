@@ -376,9 +376,8 @@ startTime: "Dec 19, 2019 9:37 PM"
     }
     ```
 
-    ![Day7/Untitled.png](Day7/Untitled.png)
-    *Detail에서 Modify한 후 name input에 cursor가 위치하게 됨*
-
+    ![Detail에서 Modify한 후 name input에 cursor가 위치하게 됨](Day7/Untitled.png)
+    
 - Create Contact에서 Create하고 나서 name input에 cursor를 focus 시키자
     - src/components/ContactCreate.js 수정
     ```javascript
@@ -460,8 +459,7 @@ startTime: "Dec 19, 2019 9:37 PM"
         onCreate: () => { console.error('onCreate not defined'); }     
     };
     ```
-    ![Day7/Untitled1.png](Day7/Untitled1.png)
-    *Create한 후 name input에 cursor가 위치하게 됨*
+    ![Create한 후 name input에 cursor가 위치하게 됨](Day7/Untitled1.png)
 
 ## Local Storage - HTML5
 
@@ -618,7 +616,7 @@ startTime: "Dec 19, 2019 9:37 PM"
     ```
 # Component LifeCycle API
 
-![Day7/Untitled2.png](Day7/Untitled2.png)
+![](Day7/Untitled2.png)
 *[https://velopert.com/1130](https://velopert.com/1130)*
 
 1. constructor: component가 처음 만들어질 때 실행
@@ -685,4 +683,4 @@ startTime: "Dec 19, 2019 9:37 PM"
 
     Todo : Bug Fix
 
-    ![Day7/Untitled3.png](Day7/Untitled3.png)
+    ![](Day7/Untitled3.png)

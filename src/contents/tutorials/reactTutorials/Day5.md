@@ -165,17 +165,13 @@ startTime: "Dec 14, 2019 6:40 PM"
         }
     }
     ```
-    ![Day5/Untitled.png](Day5/Untitled.png)
-    *기본 주소록*
+    ![기본 주소록](Day5/Untitled.png)
 
-    ![Day5/Untitled1.png](Day5/Untitled1.png)
-    *검색 기능*
+    ![검색 기능](Day5/Untitled1.png)
 
-    ![Day5/Untitled2.png](Day5/Untitled2.png)
-    *선택 기능1*
+    ![선택 기능1](Day5/Untitled2.png)
 
-    ![Day5/Untitled3.png](Day5/Untitled3.png)
-    *선택 기능2*
+    ![선택 기능2](Day5/Untitled3.png)
 
 ## Tips
 
