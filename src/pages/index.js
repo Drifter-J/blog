@@ -16,7 +16,7 @@ function showDate(startTime, endTime) {
         date += " ~ ";
         date += moment(endTime).format("DD MMM YYYY");
     }
-    
+
     return date;
 }
 
@@ -54,6 +54,7 @@ export default ({ data }) => {
                                     css={css`
                                         color: #bbb;
                                         margin-left: ${rhythm(1/3)};
+                                        font-size: 20px;
                                     `}
                                 >
                                     — {showDate(node.frontmatter.startTime, node.frontmatter.endTime)}
