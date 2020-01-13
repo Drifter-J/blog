@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import { css } from '@emotion/core'
-import { rhythm } from '../../utils/typography'
+import { rhythm } from '../utils/typography'
 
 const ListLink = props => (
     <li style={{ display: 'inline-block', marginRight:'1rem'}}>

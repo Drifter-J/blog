@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../../pages/components/layoutWithGraphQL'
+import Layout from '../../components/layoutWithGraphQL'
 
 // pull in data from a markdown post
 export default ({ data }) => {

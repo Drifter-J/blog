@@ -2,10 +2,9 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
-import Layout from './components/layoutWithGraphQL'
+import Layout from '../components/layoutWithGraphQL'
 
 //import Contact from './contact'
-
 export default ({ data }) => {
     console.log(data)
     return (
