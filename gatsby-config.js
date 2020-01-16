@@ -21,7 +21,7 @@ module.exports = {
           {
             resolve:`gatsby-remark-images`,
             options: {
-              maxWidth: 840,
+              maxWidth: 1040,
               linkImagesToOriginal: false,
               showCaptions: [`title`, `alt`],
               markdownCaptions: true,
@@ -56,5 +56,16 @@ module.exports = {
       },
     },
     `gatsby-plugin-emotion`,
+    {
+      resolve:`gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    },
   ],
 }

@@ -1,24 +1,9 @@
-import React from "react"
-import moment from "moment"
-import { Link, graphql } from "gatsby"
-import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
+import React from 'react'
+import { Link, graphql } from 'gatsby'
+import { css } from '@emotion/core'
+import { rhythm } from '../utils/typography'
+import * as markdownUtils from '../utils/markdownUtils'
 import Layout from '../components/layoutWithGraphQL'
-
-function showDate(startTime, endTime) {
-    let date = "";
-
-    if ('undefined' !== typeof startTime && null != startTime) {
-        date += moment(startTime).format("DD MMM YYYY");
-    }
-
-    if ('undefined' !== typeof endTime && null != endTime) {
-        date += " ~ ";
-        date += moment(endTime).format("DD MMM YYYY");
-    }
-
-    return date;
-}
 
 export default ({ data }) => {
     //console.log(data)
@@ -57,7 +42,7 @@ export default ({ data }) => {
                                         font-size: 20px;
                                     `}
                                 >
-                                    — {showDate(node.frontmatter.startTime, node.frontmatter.endTime)}
+                                    — {markdownUtils.showDate(node.frontmatter.startTime, node.frontmatter.endTime)}
                                 </span>
                             </h3>
                             <p>{node.excerpt}</p>

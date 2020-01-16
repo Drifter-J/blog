@@ -30,10 +30,10 @@ startTime: "Dec 10, 2019 12:20 AM"
   
   class App extends React.Component {
     render() {
-        return (
-        <CodeLab/> <!-- CodeLab Component -->
-        );
-      }
+      return (
+      <CodeLab/> <!-- CodeLab Component -->
+      );
+    }
   }
   
   /* ReactDOM는 실제 페이지에 JSX 형태의 코드를 렌더링할 때 사용됨 */
