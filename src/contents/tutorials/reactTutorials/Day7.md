@@ -1,5 +1,6 @@
 ---
 # tag: ["React", "Node.js", "GraphQL"]
+url: "https://www.youtube.com/playlist?list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC"
 title: "React Tutorial Day 7"
 startTime: "Dec 19, 2019 9:37 PM"
 ---

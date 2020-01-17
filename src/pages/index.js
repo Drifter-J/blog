@@ -65,8 +65,9 @@ export const query = (
                     title
                     startTime
                     endTime
-                    originalAuthor
+                    author
                     tag
+                    url
                   }
                   fields {
                       slug
