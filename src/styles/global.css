@@ -1,12 +1,3 @@
 html {
     background-color: white;
 }
-  
-pre, code {
-    whiteSpace: 'pre-wrap';
-    wordBreak: 'break-word';
-    color: #ff6464;
-    padding: 10;
-    font-size: small;
-}
-  

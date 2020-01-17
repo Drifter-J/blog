@@ -28,7 +28,7 @@ export default ({ data }) => {
                                 color: inherit;
                             `}
                             >
-                            <h3
+                            <h2
                                 css={css`
                                     margin-bottom: ${rhythm(1/4)};
                                 `}
@@ -44,7 +44,7 @@ export default ({ data }) => {
                                 >
                                     — {markdownUtils.showDate(node.frontmatter.startTime, node.frontmatter.endTime)}
                                 </span>
-                            </h3>
+                            </h2>
                             <p>{node.excerpt}</p>
                         </Link>
                     </div>
