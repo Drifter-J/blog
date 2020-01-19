@@ -26,12 +26,17 @@ export function showOriginalReference(str) {
 export function showDate(startTime, endTime) {
     let date = "";
     if ('undefined' !== typeof startTime && null != startTime) {
-        date += moment(startTime).format("DD MMM YYYY");
+        startTime = moment(startTime).format("DD MMM YYYY");
+        date += startTime;
     }
     if ('undefined' !== typeof endTime && null != endTime) {
+        endTime = moment(endTime).format("DD MMM YYYY");
         date += " ~ ";
-        date += moment(endTime).format("DD MMM YYYY");
+        date += endTime;
     }
+    if (endTime === startTime)
+        return startTime;
+
     return date;
 }
 
