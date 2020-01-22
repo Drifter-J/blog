@@ -9,69 +9,71 @@ Q. 일정한 무게까지 물건을 배낭에 넣을 수 있다고 할 때 가�
 
 ## Greedy Approach (less optimal)
 
-    // constraint : weight - 10 max, value - make it max!, 0/1 knap-sack
-    // weight : 1  3  4  2  8   10
-    // value  : 4  3  2  4  20  20
-    // v/w    : 4  1 0.5 2  2.5  2
-    //          1           9  
-    // implementation : 1) find v/w and store them in a hashtable(v/w is a key and w is a value)
-    //                  2) do hashtable iteration from end(v/w is biggest) to begin
-    //                  3) add up the weight value until it does not exceed the given constraint
-    #include <iostream>
-    #include <map>
-    #include <set>
-    
-    using namespace std;
-    	
-    template <size_t size>
-    int knapsack(int (&w)[size], int (&v)[size], int constraint)
-    {
-    	map<double, set<int>, greater<double>> wMap;
-    	for (int i = 0; i < size; ++i)
-    	{
-    		double vw = (double)v[i] / (double)w[i];
-    		if (wMap.find(vw) != wMap.end())
-    			wMap.find(vw)->second.insert(w[i]);
-    		else
-    		{
-    			set<int> tSet;
-    			tSet.insert(w[i]);
-    			wMap.insert(make_pair(vw, tSet));
-    		}
-    	}
-    
-    	int ret = 0;
-    	for (map<double, set<int>>::iterator iter = wMap.begin(); iter != wMap.end(); ++iter)
-    	{
-    		if (constraint < 0)
-    			break;
-    		for (int i : iter->second)
-    		{
-    			constraint -= i;
-    			if (constraint >= 0)
-    			{
-    				cout << i << endl;
-    				ret += iter->first * i;
-    			}
-    			else
-    				break;
-    		}
-    	}
-    	return ret;
-    }
-    
-    int main()
-    {
-    	int w[] = {1, 3, 4, 2, 8, 10};
-    	int v[] = {4, 3, 2, 4, 20, 20};
-    	int constraint = 10;
-    	cout << knapsack<6>(w, v, constraint) << endl;
-    
-    	return 0;
-    }
-
+	```cpp
+	// constraint : weight - 10 max, value - make it max!, 0/1 knap-sack
+	// weight : 1  3  4  2  8   10
+	// value  : 4  3  2  4  20  20
+	// v/w    : 4  1 0.5 2  2.5  2
+	//          1           9  
+	// implementation : 1) find v/w and store them in a hashtable(v/w is a key and w is a value)
+	//                  2) do hashtable iteration from end(v/w is biggest) to begin
+	//                  3) add up the weight value until it does not exceed the given constraint
+	#include <iostream>
+	#include <map>
+	#include <set>
+	
+	using namespace std;
+		
+	template <size_t size>
+	int knapsack(int (&w)[size], int (&v)[size], int constraint)
+	{
+		map<double, set<int>, greater<double>> wMap;
+		for (int i = 0; i < size; ++i)
+		{
+			double vw = (double)v[i] / (double)w[i];
+			if (wMap.find(vw) != wMap.end())
+				wMap.find(vw)->second.insert(w[i]);
+			else
+			{
+				set<int> tSet;
+				tSet.insert(w[i]);
+				wMap.insert(make_pair(vw, tSet));
+			}
+		}
+	
+		int ret = 0;
+		for (map<double, set<int>>::iterator iter = wMap.begin(); iter != wMap.end(); ++iter)
+		{
+			if (constraint < 0)
+				break;
+			for (int i : iter->second)
+			{
+				constraint -= i;
+				if (constraint >= 0)
+				{
+					cout << i << endl;
+					ret += iter->first * i;
+				}
+				else
+					break;
+			}
+		}
+		return ret;
+	}
+	
+	int main()
+	{
+		int w[] = {1, 3, 4, 2, 8, 10};
+		int v[] = {4, 3, 2, 4, 20, 20};
+		int constraint = 10;
+		cout << knapsack<6>(w, v, constraint) << endl;
+	
+		return 0;
+	}
+	```
 ## Dynamic Programming Approach
 
+	```cpp
     #include <iostream>
     #include <cstring>
     
@@ -156,3 +158,4 @@ Q. 일정한 무게까지 물건을 배낭에 넣을 수 있다고 할 때 가�
     	cout << "Tabulation: " << ret << endl;
     	return 0;
     }
+	```

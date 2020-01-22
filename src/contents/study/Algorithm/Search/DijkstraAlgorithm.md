@@ -1,17 +1,22 @@
-# Dijkstra Algorithm
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Dijkstra Algorithm 
+--- 
 
-# Description : 노드와 연결되어 있는 엣지의 비용과 현재까지의 비용의 합이 최소인 엣지를 선택
+## Description : 노드와 연결되어 있는 엣지의 비용과 현재까지의 비용의 합이 최소인 엣지를 선택
 
 - Greedy Method
 - Relaxation (nodes are relaxed)
 
-![DijkstraAlgorithm/Untitled.png](DijkstraAlgorithm/Untitled.png)
+![](./DijkstraAlgorithm/Untitled.png)
 
 - `if (d[u] + c(u, v) < d[v])`
 - `d[v] = d[u] + c(u, v)`
 - Time Complexity : `O(|v|^2)`
 - drawback : may or may not work if a graph has negative edges
-
+	```cpp
     vector<vector<int>> edge;
     vector<vector<int>> dist;
     
@@ -54,3 +59,4 @@
     	}
     	return d[to];
     }
+	```

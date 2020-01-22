@@ -5,7 +5,7 @@ tag: Programming, Algorithm
 title: Heap Sort
 ---
 
-# Description : 힙트리에서 하나씩 팝업.
+## Description : 힙트리에서 하나씩 팝업.
 
 ---
 

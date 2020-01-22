@@ -5,7 +5,7 @@ tag: Programming, Algorithm
 title: MergeSort
 ---
 
-# Description : 정렬되지 않은 리스트를 나눠 재귀적으로 병합하여 정렬
+## Description : 정렬되지 않은 리스트를 나눠 재귀적으로 병합하여 정렬
 
 ---
 

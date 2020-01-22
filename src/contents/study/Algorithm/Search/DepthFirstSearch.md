@@ -1,8 +1,11 @@
-# Depth First Search
-
-# Description : 노드 검색 경로를 Stack에 저장
-
 ---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Depth First Search 
+--- 
+
+## Description : 노드 검색 경로를 Stack에 저장
 
 - Setting/getting a vertex/edge label takes `O(1)` time
 - DFS Performs a depth-first traversal of the vertices in a directed graph.
@@ -10,15 +13,15 @@
 - 3 Types of DFS
     - Pre-order
 
-        ![DepthFirstSearch/Untitled.png](DepthFirstSearch/Untitled.png)
+        ![](./DepthFirstSearch/Untitled.png)
 
     - In-order
 
-    ![DepthFirstSearch/Untitled1.png](DepthFirstSearch/Untitled1.png)
+    ![](./DepthFirstSearch/Untitled1.png)
 
     - Post-order
 
-    ![DepthFirstSearch/Untitled2.png](DepthFirstSearch/Untitled2.png)
+    ![](/DepthFirstSearch/Untitled2.png)
 
 - DFS를 사용하면 좋은 경우
     - 모든 경로를 탐색하고 결과를 확인해야 하는 경우
@@ -26,6 +29,7 @@
 - Time Complexity : `O(V + E)`
 - Space Complexity : `O(V)`
 
+   ```cpp 
     #include <iostream>
     #include <list>
     #include <stack>

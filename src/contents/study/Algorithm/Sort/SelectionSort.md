@@ -5,7 +5,7 @@ tag: Programming, Algorithm
 title: Selection Sort
 ---
 
-# Description : 한번 순회를 하면서 가장 큰 수를 찾아서 배열의 마지막 위치와 교환
+## Description : 한번 순회를 하면서 가장 큰 수를 찾아서 배열의 마지막 위치와 교환
 
 ---
 

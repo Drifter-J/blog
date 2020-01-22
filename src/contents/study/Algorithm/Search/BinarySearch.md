@@ -1,7 +1,8 @@
-# Binary Search
-
-# Binary Search
-
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Binary Search
 ---
 
 - A binary search comes with the prerequisite that the data must be sorted. (If data structure is complete binary search tree, then PERFECT!)
@@ -11,6 +12,7 @@
 
 ![BinarySearch/Untitled.png](BinarySearch/Untitled.png)
 
+    ```cpp
     #include <iostream>
     using namespace std;
     
@@ -37,3 +39,4 @@
         cout << BinarySearch(arr, 3, 0, 9) << endl;
         cout << BinarySearch(arr, 11, 0, 9) << endl;
     }
+    ```

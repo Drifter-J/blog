@@ -15,34 +15,36 @@ $$^nCr = \dfrac{n!}{r! \cdot (n-r)!}$$
 
 - Time Complexity : `O(n^3)`
 
-![MatrixChainMultiplication/Untitled.png](MatrixChainMultiplication/Untitled.png)
+![MatrixChainMultiplication/Untitled.png](./MatrixChainMultiplication/Untitled.png)
 
-![MatrixChainMultiplication/Untitled1.png](MatrixChainMultiplication/Untitled1.png)
+![MatrixChainMultiplication/Untitled1.png](./MatrixChainMultiplication/Untitled1.png)
 
-    int main()
-    {
-    	int n = 5;
-    	int p[] = {5,4,6,2,7}; // A1(5 X 4), A2(4 X 6), A3(6 X 2), A4(2 X 7)
-    	int m[5][5] = {0};
-    	int s[5][5] = {0}; 
-    	int j, min, q;
-    	for (int d = 1; d < n - 1; ++d) // d as diagonal
-    	{
-    		for (int i = 0; i < n - d; ++i)
-    		{
-    			j = i + d;
-    			min = 32767;
-    			for (int k = i; k <= j - 1; ++k)
-    			{
-    				q = m[i][k] + m[k + 1][j] + p[i - 1] * p[k] * p[j];
-    				if (q < min)
-    				{
-    					min = q;
-    					s[i][j] = k; // s is for finding the answer -> in order 
-    				}
-    				min[i][j] = min;
-    			}
-    		}
-    		cout << m[i][n - 1];
-    	}
-    }
+```cpp
+int main()
+{
+	int n = 5;
+	int p[] = {5,4,6,2,7}; // A1(5 X 4), A2(4 X 6), A3(6 X 2), A4(2 X 7)
+	int m[5][5] = {0};
+	int s[5][5] = {0}; 
+	int j, min, q;
+	for (int d = 1; d < n - 1; ++d) // d as diagonal
+	{
+		for (int i = 0; i < n - d; ++i)
+		{
+			j = i + d;
+			min = 32767;
+			for (int k = i; k <= j - 1; ++k)
+			{
+				q = m[i][k] + m[k + 1][j] + p[i - 1] * p[k] * p[j];
+				if (q < min)
+				{
+					min = q;
+					s[i][j] = k; // s is for finding the answer -> in order 
+				}
+				min[i][j] = min;
+			}
+		}
+		cout << m[i][n - 1];
+	}
+}
+```

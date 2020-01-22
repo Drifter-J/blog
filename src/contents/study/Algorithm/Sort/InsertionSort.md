@@ -5,7 +5,7 @@ tag: Programming, Algorithm
 title: Insertion Sort
 ---
 
-# Description : 정렬된 부분리스트에 원소를 삽입
+## Description : 정렬된 부분리스트에 원소를 삽입
 
 ---
 

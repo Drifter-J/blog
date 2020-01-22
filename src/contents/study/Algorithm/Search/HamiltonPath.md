@@ -1,4 +1,9 @@
-# Hamilton Path
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Hamilton Path	 
+--- 
 
 - 각 국가에는 N개의 도시가 있고, 각 도시에는 0 ~ N-1의 번호가 붙어 있다.
 - 각 도시끼리는 양방향 도로가 놓여져 있다.
@@ -7,25 +12,30 @@
     2. 각 도시는 한 번만 방문 가능
     3. roads의 i번째 요소에 있는 j번째 문자가 'Y'라면 i와 j를 연결하는 도로를 반드시 지나야 함
 
-    ![HamiltonPath/Untitled.png](HamiltonPath/Untitled.png)
+    ![](./HamiltonPath/Untitled.png)
 
 - 구현 방법
     1. 갈래가 나뉘어지는 도시가 있는지 확인 (각 열에 'Y'가 3개 이상이면 return 0)
 
+			```
             O → O
             ↓ ↘
             O   O
-
+			```
+		
     2. 순환되는 경로가 있는지 확인 (도시 'B'가 'Y'를 2개 포함하고, 이전 도시 'A'와 다음 도시 'C'에 'Y'가 1개 있는 경우)
 
+			```
             O ← O
             ↓  ↗
             O
+			```
 
     3. 반드시 통과해야 하는 경로의 수 계산
     4. 자유롭게 이동할 수 있는 도시 수 계산 ('Y'가 없는 열 계산)
     5. 더 효율적으로 수를 셈 ('Y'를 1개만 포함하는 도시의 수를 세면 반드시 거쳐야하는 경로를 얻을 수 있음)
 
+	```cpp
     #include <iostream>
     #include <string>
     #include <vector>
@@ -102,3 +112,4 @@
     
     	return 0;
     }
+	```

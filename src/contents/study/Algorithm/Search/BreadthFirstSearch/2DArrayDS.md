@@ -1,9 +1,15 @@
-# 2D Array - DS
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: 2D Array - DS
+--- 
 
 ## Q. 2D Array에 모래시계의 형태의 sub array를 찾고, calculate the hourglass sum for every hourglass in arr, then print the maximum hourglass sum.
 
-![2DArrayDS/Untitled.png](2DArrayDS/Untitled.png)
+![](2DArrayDS/Untitled.png)
 
+	```cpp
     // input is 6x6 array
     #include <iostream>
     using namespace std;
@@ -60,3 +66,4 @@
     
     	return 0;
     }
+	```

@@ -5,7 +5,7 @@ tag: Programming, Algorithm
 title: Bubble Sort
 ---
 
-# Description : 인접한 두 원소를 비교해가면서 정렬하는 방식
+## Description : 인접한 두 원소를 비교해가면서 정렬하는 방식
 
 - In the bubble sort, each element and its adjacent element is compared and swapped if required.
 

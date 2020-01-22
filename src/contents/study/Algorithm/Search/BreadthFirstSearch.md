@@ -1,8 +1,11 @@
-# Breadth First Search
-
-# Description : 노드 검색 경로를 Queue에 저장
-
 ---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Breadth First Search 
+--- 
+
+## Description : 노드 검색 경로를 Queue에 저장
 
 - Setting/getting a vertex/edge label takes `O(1)` time
 - BFS first visits the vertex and then visit all the vertices adjacent to the starting vertex. Next, it picks the adjacent vertices one after another and visit their adjacent vertices and this process goes on and on until it reach the last vertex.
@@ -11,11 +14,12 @@
     - 탐색 범위 자체는 넓지만 어느 정도 근처에 구하고 싶은 해가 존재하는 것을 알고 있는 경우
     - 탐색 범위가 굉장히 넓으며 깊이 우선 탐색을 사용할 때는 스택이 대량으로 사용되는 경우
 
-[2D Array - DS](BreadthFirstSearch/2DArrayDS.md)
+[2D Array - DS](BreadthFirstSearch/./2DArrayDS.md)
 
 - Time Complexity : `O(V + E)`
 - Space Complexity : `O(V + E)`
 
+    ```cpp 
     #include <iostream>
     #include <list>
     #include <queue>
@@ -103,3 +107,4 @@
     	cin >> num;
     	cout << g.BFS(0, num) << endl;
     }
+    ```

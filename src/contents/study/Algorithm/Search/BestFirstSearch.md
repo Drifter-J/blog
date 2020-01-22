@@ -1,7 +1,8 @@
-# Best First Search
-
-# Best First Search
-
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Best First Search (ing)
 ---
 
 - Best-first search uses an evaluation function (sometimes called a "heuristic") to determine which object is the most promising, and then examines this object. This "best first" behavior is implemented with a Priority Queue. (unlike DFS or BFS (which blindly examines/expands a cell without knowing anything about it or its properties))

@@ -5,7 +5,7 @@ tag: Programming, Algorithm
 title: Quick Sort
 ---
 
-# Description : 피벗을 정한후, 피벗앞/뒤를 나눈다. (partitioning) 분할된 서브리스트에 대해 재귀 반복
+## Description : 피벗을 정한후, 피벗앞/뒤를 나눈다. (partitioning) 분할된 서브리스트에 대해 재귀 반복
 
 ---
 

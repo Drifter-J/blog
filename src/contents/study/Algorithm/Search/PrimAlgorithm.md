@@ -1,10 +1,16 @@
-# Prim's Algorithm
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Prim's Algorithm (ing)	 
+--- 
 
-# Description : 현재노드에서 최소비용(Cost)의 엣지선택
+## Description : 현재노드에서 최소비용(Cost)의 엣지선택
 
 - Greedy Method
 - 우선 순위 큐를 사용하면, Time Complexity : `O(E log E)`
 
+	```cpp
     // 아래 Algorithm은 O(V^2 + E)이다.
     vector<vector<int>> edge;
     vector<vector<int>> dist;
@@ -58,3 +64,4 @@
     
     	return ret;
     }
+	```
