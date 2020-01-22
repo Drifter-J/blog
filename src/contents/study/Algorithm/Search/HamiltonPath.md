@@ -7,7 +7,7 @@
     2. 각 도시는 한 번만 방문 가능
     3. roads의 i번째 요소에 있는 j번째 문자가 'Y'라면 i와 j를 연결하는 도로를 반드시 지나야 함
 
-    ![Hamilton%20Path/Untitled.png](Hamilton%20Path/Untitled.png)
+    ![HamiltonPath/Untitled.png](HamiltonPath/Untitled.png)
 
 - 구현 방법
     1. 갈래가 나뉘어지는 도시가 있는지 확인 (각 열에 'Y'가 3개 이상이면 return 0)

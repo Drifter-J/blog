@@ -1,9 +1,15 @@
-# Minimum Cost Paths
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Minimum Cost Paths 
+--- 
 
 Q. How many *minimum cost paths* to reach from point A to point B in a grid? 
 
-![Minimum%20Cost%20Paths/Untitled.png](Minimum%20Cost%20Paths/Untitled.png)
-
+![MinimumCostPaths/Untitled.png](./MinimumCostPaths/Untitled.png)
+    
+    ```cpp
     // 1) 기존 탐색을 이용한 기법 -> O(2^(h+w)), very inefficient
     const int h = 4. w = 4;
     int dfs(int nowh, int noww)
@@ -37,3 +43,4 @@ Q. How many *minimum cost paths* to reach from point A to point B in a grid?
     		}
     	}
     }
+    ```

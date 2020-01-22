@@ -1,4 +1,9 @@
-# RadixSort
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: RadixSort
+---
 
 # Description :
 
@@ -8,6 +13,7 @@
 - Sort on least-significant digit first with auxiliary stable sort.
 - `O(d * n)` - d is digit
 
+    ```cpp
     void radixSort(int *a, int n)
     {
         int i, b[50], m=0, exp=1;
@@ -35,3 +41,4 @@
             exp *= 10;
         }
     }
+    ```

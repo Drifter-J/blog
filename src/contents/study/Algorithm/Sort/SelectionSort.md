@@ -1,4 +1,9 @@
-# Selection Sort
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Selection Sort
+---
 
 # Description : 한번 순회를 하면서 가장 큰 수를 찾아서 배열의 마지막 위치와 교환
 
@@ -7,11 +12,12 @@
 - Selection sort works by selecting the element and swapping that particular element with the last element.
 - The selected element could be largest or smallest depending on the order i.e., ascending or descending.
 
-![Selection%20Sort/Untitled.png](Selection%20Sort/Untitled.png)
+![SelectionSort/Untitled.png](SelectionSort/Untitled.png)
 
 - Time Complexity : `O(n^2)`
 - Slightly better than Bubble sort
 
+	```cpp
     #include <iostream>
     using namespace std;
     
@@ -41,3 +47,4 @@
     		cout << arr[i] << ","; 
     	}
     }
+	```

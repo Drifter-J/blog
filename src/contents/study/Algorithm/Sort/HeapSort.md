@@ -1,4 +1,9 @@
-# Heap Sort
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Heap Sort
+---
 
 # Description : 힙트리에서 하나씩 팝업.
 
@@ -11,8 +16,7 @@
 
 1) Build a Heap (min-heap or max-heap)  - Heapify `O(n)`
 
-2) 
-
+    ```cpp
     /*Input data: 4, 10, 3, 5, 1
              4(0)
             /   \
@@ -64,3 +68,4 @@
     	int array[5];
     	Heapify<5>(array,?,?);
     }
+    ```

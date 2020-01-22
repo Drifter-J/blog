@@ -1,4 +1,9 @@
-# Quick Sort
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Quick Sort
+---
 
 # Description : 피벗을 정한후, 피벗앞/뒤를 나눈다. (partitioning) 분할된 서브리스트에 대해 재귀 반복
 
@@ -12,8 +17,8 @@
     1. when the list is already in sorted order
     2. when the list is in reverse sorted order
 
-![Quick%20Sort/Untitled.png](Quick%20Sort/Untitled.png)
-
+![QuickSort/Untitled.png](QuickSort/Untitled.png)
+	```cpp
     #include <iostream>
     using namespace std;
     
@@ -57,3 +62,4 @@
     	for(auto i : arr)
     		cout << i << ", ";
     }
+	```

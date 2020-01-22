@@ -1,4 +1,9 @@
-# MergeSort
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: MergeSort
+---
 
 # Description : 정렬되지 않은 리스트를 나눠 재귀적으로 병합하여 정렬
 
@@ -15,6 +20,7 @@
 
 ![MergeSort/Untitled.png](MergeSort/Untitled.png)
 
+    ```cpp
     #include <iostream>
     using namespace std;
     
@@ -68,3 +74,4 @@
       for (int i = 0; i < sizeof(arr) / sizeof(int); ++i)
         cout << arr[i] << endl;
     }
+    ```

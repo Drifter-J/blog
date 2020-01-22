@@ -2,7 +2,7 @@
 
 ## Q. 2D Array에 모래시계의 형태의 sub array를 찾고, calculate the hourglass sum for every hourglass in arr, then print the maximum hourglass sum.
 
-![2D%20Array%20DS/Untitled.png](2D%20Array%20DS/Untitled.png)
+![2DArrayDS/Untitled.png](2DArrayDS/Untitled.png)
 
     // input is 6x6 array
     #include <iostream>

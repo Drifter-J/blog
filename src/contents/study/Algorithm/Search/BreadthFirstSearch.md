@@ -11,7 +11,7 @@
     - 탐색 범위 자체는 넓지만 어느 정도 근처에 구하고 싶은 해가 존재하는 것을 알고 있는 경우
     - 탐색 범위가 굉장히 넓으며 깊이 우선 탐색을 사용할 때는 스택이 대량으로 사용되는 경우
 
-[2D Array - DS](Breadth%20First%20Search/2D%20Array%20DS.md)
+[2D Array - DS](BreadthFirstSearch/2DArrayDS.md)
 
 - Time Complexity : `O(V + E)`
 - Space Complexity : `O(V + E)`

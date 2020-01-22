@@ -1,4 +1,9 @@
-# Insertion Sort
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Insertion Sort
+---
 
 # Description : 정렬된 부분리스트에 원소를 삽입
 
@@ -6,8 +11,9 @@
 
 - More efficient in practice than most other simple quadratic (i.e., `O(n^2)`) algorithms such as selection sort or bubble sort.
 
-![Insertion%20Sort/Untitled.png](Insertion%20Sort/Untitled.png)
+![InsertionSort/Untitled.png](InsertionSort/Untitled.png)
 
+    ```cpp
     #include <string>
     #include <iostream>
     using namespace std;
@@ -39,3 +45,4 @@
         }
         return 0;
     }
+    ```

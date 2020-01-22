@@ -1,4 +1,9 @@
-# Matrix Chain Multiplication
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Matrix Chain Multiplication 
+--- 
 
 Q. Matrix를 곱할 때 어떤 순서로 곱해야 가장 적은 Multiplcation을 take할까?
 
@@ -10,9 +15,9 @@ $$^nCr = \dfrac{n!}{r! \cdot (n-r)!}$$
 
 - Time Complexity : `O(n^3)`
 
-![Matrix%20Chain%20Multiplication/Untitled.png](Matrix%20Chain%20Multiplication/Untitled.png)
+![MatrixChainMultiplication/Untitled.png](MatrixChainMultiplication/Untitled.png)
 
-![Matrix%20Chain%20Multiplication/Untitled%201.png](Matrix%20Chain%20Multiplication/Untitled%201.png)
+![MatrixChainMultiplication/Untitled1.png](MatrixChainMultiplication/Untitled1.png)
 
     int main()
     {

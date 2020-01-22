@@ -6,22 +6,22 @@ title: Search
 ---
 
 
-[Depth First Search](Search/Depth%20First%20Search.md)
+[Depth First Search](Search/DepthFirstSearch.md)
 
-[Breadth First Search](Search/Breadth%20First%20Search.md)
+[Breadth First Search](Search/BreadthFirstSearch.md)
 
-[Binary Search](Search/Binary%20Search.md)
+[Binary Search](Search/BinarySearch.md)
 
-[Hamilton Path](Search/Hamilton%20Path.md)
+[Hamilton Path](Search/HamiltonPath.md)
 
-[Best First Search](Search/Best%20First%20Search.md)
+[Best First Search](Search/BestFirstSearch.md)
 
 # MST (Minimum Spanning Tree)
 
-[Prim's Algorithm](Search/Prim%20s%20Algorithm.md)
+[Prim's Algorithm](Search/PrimsAlgorithm.md)
 
-[Kruskal's Algorithm](Search/Kruskal%20s%20Algorithm.md)
+[Kruskal's Algorithm](Search/KruskalsAlgorithm.md)
 
-[Dijkstra Algorithm](Search/Dijkstra%20Algorithm.md)
+[Dijkstra Algorithm](Search/DijkstraAlgorithm.md)
 
 [A*](Search/A.md)

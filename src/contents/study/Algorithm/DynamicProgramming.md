@@ -13,8 +13,8 @@ title: Dynamic Programming
 
     ***2) Bottom Up Approach : `Tabulation`(encode an order in which solutions are calculated) 사용***
 
-[Minimum Cost Paths](Dynamic%20Programming/Minimum%20Cost%20Paths.md)
+[Minimum Cost Paths](DynamicProgramming/MinimumCostPaths.md)
 
-[Matrix Chain Multiplication](Dynamic%20Programming/Matrix%20Chain%20Multiplication.md)
+[Matrix Chain Multiplication](DynamicProgramming/MatrixChainMultiplication.md)
 
-[Knap Sack](Dynamic%20Programming/Knap%20Sack.md)
+[Knap Sack](DynamicProgramming/KnapSack.md)

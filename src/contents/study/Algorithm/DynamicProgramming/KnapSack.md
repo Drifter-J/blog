@@ -1,4 +1,9 @@
-# Knap Sack
+---
+endTime: Jan 22, 2020 12:19 AM
+startTime: Jan 22, 2020 12:05 AM
+tag: Programming, Algorithm
+title: Knap Sack
+--- 
 
 Q. 일정한 무게까지 물건을 배낭에 넣을 수 있다고 할 때 가치의 합계가 최대가 되려면 물건을 배낭에 어떻게 집어넣어야 할까?
 

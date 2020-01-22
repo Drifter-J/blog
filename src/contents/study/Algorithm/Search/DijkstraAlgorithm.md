@@ -5,7 +5,7 @@
 - Greedy Method
 - Relaxation (nodes are relaxed)
 
-![Dijkstra%20Algorithm/Untitled.png](Dijkstra%20Algorithm/Untitled.png)
+![DijkstraAlgorithm/Untitled.png](DijkstraAlgorithm/Untitled.png)
 
 - `if (d[u] + c(u, v) < d[v])`
 - `d[v] = d[u] + c(u, v)`

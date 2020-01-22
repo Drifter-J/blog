@@ -9,7 +9,7 @@
 - Check middle element, Recursively search 1 subarray
 - `T(n) = T(n/2) + O(1) = O(logn)`
 
-![Binary%20Search/Untitled.png](Binary%20Search/Untitled.png)
+![BinarySearch/Untitled.png](BinarySearch/Untitled.png)
 
     #include <iostream>
     using namespace std;

@@ -10,15 +10,15 @@
 - 3 Types of DFS
     - Pre-order
 
-        ![Depth%20First%20Search/Untitled.png](Depth%20First%20Search/Untitled.png)
+        ![DepthFirstSearch/Untitled.png](DepthFirstSearch/Untitled.png)
 
     - In-order
 
-    ![Depth%20First%20Search/Untitled%201.png](Depth%20First%20Search/Untitled%201.png)
+    ![DepthFirstSearch/Untitled1.png](DepthFirstSearch/Untitled1.png)
 
     - Post-order
 
-    ![Depth%20First%20Search/Untitled%202.png](Depth%20First%20Search/Untitled%202.png)
+    ![DepthFirstSearch/Untitled2.png](DepthFirstSearch/Untitled2.png)
 
 - DFS를 사용하면 좋은 경우
     - 모든 경로를 탐색하고 결과를 확인해야 하는 경우
