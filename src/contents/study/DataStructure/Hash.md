@@ -14,9 +14,7 @@ title: Hash
         - Worst case `O(logn)` for search
         - 크기가 큰 배열을 미리 할당하지 않아도 됨 OR 배열을 resize(takes `O(n)`)하지 않아도 됨
         - 키의 집합을 특정 순서에 따라 차례대로 접근 가능함
-- Resize `O(n)`
-- Insert `O(n)`
-- delete `O(n)`
+- Resize, Insertion, Deletion `O(n)`
 - **Collision 해결 방법 :**
     1. Chaining
         - Linked list를 이용한 chaining → Data를 그냥 linked list에 추가 : `O(n)` Search

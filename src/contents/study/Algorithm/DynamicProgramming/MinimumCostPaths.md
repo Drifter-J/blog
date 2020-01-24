@@ -7,7 +7,7 @@ title: Minimum Cost Paths
 
 Q. How many *minimum cost paths* to reach from point A to point B in a grid? 
 
-![MinimumCostPaths/Untitled.png](./MinimumCostPaths/Untitled.png)
+![](./MinimumCostPaths/Untitled.png)
     
    ```cpp 
     // 1) 기존 탐색을 이용한 기법 -> O(2^(h+w)), very inefficient

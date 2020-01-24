@@ -6,7 +6,7 @@ title: Binary Search
 ---
 
 - A binary search comes with the prerequisite that the data must be sorted. (If data structure is complete binary search tree, then PERFECT!)
-- Just remember that sorting data, even with the most efficient algorithm, will always be slower than a linear search (the fastest sorting algorithms are O(n * log n)).
+- Just remember that sorting data, even with the most efficient algorithm, will always be slower than a linear search (the fastest sorting algorithms are `O(n * log n)`).
 - Check middle element, Recursively search 1 subarray
 - `T(n) = T(n/2) + O(1) = O(logn)`
 

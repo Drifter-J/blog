@@ -36,7 +36,7 @@ startTime: "Dec 23, 2019 1:42 AM"
 
 2. `mongo` 명령어 실행으로 클라이언트 접근
 
-    ![](<./Day11/Untitled1.png>)
+    ![](./Day11/Untitled1.png)
 
 3. database 사용법 익히기
 

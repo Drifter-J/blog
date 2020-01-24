@@ -18,7 +18,7 @@ title: MergeSort
 - Linear-time merge
 - `T(n) = 2T(n/2) + O(n) = O(nlogn)`
 
-![MergeSort/Untitled.png](MergeSort/Untitled.png)
+![](MergeSort/Untitled.png)
 
     ```cpp
     #include <iostream>

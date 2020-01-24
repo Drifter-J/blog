@@ -17,7 +17,7 @@ title: Quick Sort
     1. when the list is already in sorted order
     2. when the list is in reverse sorted order
 
-![QuickSort/Untitled.png](QuickSort/Untitled.png)
+![](QuickSort/Untitled.png)
 	```cpp
     #include <iostream>
     using namespace std;

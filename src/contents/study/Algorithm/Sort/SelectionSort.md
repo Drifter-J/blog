@@ -12,7 +12,7 @@ title: Selection Sort
 - Selection sort works by selecting the element and swapping that particular element with the last element.
 - The selected element could be largest or smallest depending on the order i.e., ascending or descending.
 
-![SelectionSort/Untitled.png](SelectionSort/Untitled.png)
+![](SelectionSort/Untitled.png)
 
 - Time Complexity : `O(n^2)`
 - Slightly better than Bubble sort

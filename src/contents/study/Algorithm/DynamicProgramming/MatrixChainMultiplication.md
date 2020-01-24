@@ -15,9 +15,9 @@ $$^nCr = \dfrac{n!}{r! \cdot (n-r)!}$$
 
 - Time Complexity : `O(n^3)`
 
-![MatrixChainMultiplication/Untitled.png](./MatrixChainMultiplication/Untitled.png)
+![](./MatrixChainMultiplication/Untitled.png)
 
-![MatrixChainMultiplication/Untitled1.png](./MatrixChainMultiplication/Untitled1.png)
+![](./MatrixChainMultiplication/Untitled1.png)
 
 ```cpp
 int main()

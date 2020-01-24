@@ -7,4 +7,4 @@ title: Big-O
 
 # Big-O : Measure of Efficiency for n = 10,000
 
-![BigO/Untitled.png](BigO/Untitled.png)
+![](BigO/Untitled.png)

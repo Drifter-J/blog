@@ -11,7 +11,7 @@ title: Insertion Sort
 
 - More efficient in practice than most other simple quadratic (i.e., `O(n^2)`) algorithms such as selection sort or bubble sort.
 
-![InsertionSort/Untitled.png](InsertionSort/Untitled.png)
+![](InsertionSort/Untitled.png)
 
     ```cpp
     #include <string>

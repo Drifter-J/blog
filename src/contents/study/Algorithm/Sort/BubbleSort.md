@@ -9,7 +9,7 @@ title: Bubble Sort
 
 - In the bubble sort, each element and its adjacent element is compared and swapped if required.
 
-![BubbleSort/Untitled.png](BubbleSort/Untitled.png)
+![](BubbleSort/Untitled.png)
 
 - Time Complexity : `O(n^2)`
 - The slowest sorting algorithm
