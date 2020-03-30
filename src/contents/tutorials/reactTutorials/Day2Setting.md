@@ -54,7 +54,7 @@ startTime: "Dec 11, 2019 12:55 PM"
 
 - `{`, `}` 순차적으로 하이라이트하는 기능 제공
 
-### change-case
+# Change-case
 
 - selection의 case를 바꾸는 기능 제공
     - e.g. `const fooBar = 0;` → `const FOO_BAR = 0;`
